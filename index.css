@@ -118,6 +118,9 @@ body{
    .hero-title{
         font-size: 3.8rem;
    }
+   .hero-mobi-con{
+        height: 85vh;
+   }
 }
 .hero-par{
     font-family:'HelveticaNeue-Thin';
