@@ -28,7 +28,11 @@ body,h1,h2,h3,p,ul,li,form{
     margin:20px;
     padding:0;
 }
-
+@media screen and (max-width: 768px) {
+    body{
+    overflow-x: hidden;
+    }
+}
 /*Global Default styles*/
 body{
     font-family:'HelveticaNeue-Thin';
@@ -64,6 +68,17 @@ body{
     flex-grow: 1;
     
 }
+@media screen and (max-width: 768px) {
+    .laptop-view{
+    display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .mobile-view{
+    display: none;
+    }
+}
 
 /* grid - 5 by3*/
 .hero {
@@ -94,9 +109,9 @@ body{
     margin-bottom:-9.38rem;
     
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
    .hero-title{
-    font-size: .5rem;
+    font-size: 5.8rem;
    }
 }
 .hero-par{
