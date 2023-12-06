@@ -72,6 +72,10 @@ body{
     .laptop-view{
     display: none;
     }
+    .mobi-title{
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (min-width: 769px) {
