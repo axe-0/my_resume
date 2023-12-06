@@ -72,9 +72,7 @@ body{
     .laptop-view{
     display: none;
     }
-    .mobi-title{
-        font-size: 0.8rem;
-    }
+    
 
 }
 
@@ -114,8 +112,11 @@ body{
     
 }
 @media screen and (max-width: 768px) {
+    .mobi-title{
+        font-size: 3.8rem;
+    }
    .hero-title{
-    font-size: 5.8rem;
+        font-size: 3.8rem;
    }
 }
 .hero-par{
