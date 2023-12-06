@@ -73,7 +73,7 @@ body{
     display: none;
     }
     .mobi-title{
-        font-size: 2rem;
+        font-size: 0.8rem;
     }
 
 }
@@ -239,6 +239,7 @@ body{
     font-weight: 50;
     margin-top: 20px;
     margin-left:80px;
+    margin-bottom: 1rem;
     
 
 }
